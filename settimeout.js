@@ -9,20 +9,24 @@ function ativarContagem () {
     //},5000)
 
    tempo= setInterval(function(){
+
         var cronometro = document.getElementById('tempo').innerHTML;
         var soma = parseInt(cronometro) + 1
         document.getElementById('tempo').innerHTML=soma
     },1000)
 
-
+          document.body.style.backgroundcolor="blue"
 
 }
+
 
 function pararContagem () {
     clearInterval (tempo);
-    document.getElementById('tempo').innerHTML=""
-
-
-
+    document.getElementById('tempo').innerHTML='0'
+   
+    
+    
 
 }
+
+
