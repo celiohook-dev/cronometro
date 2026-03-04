@@ -15,8 +15,7 @@ function ativarContagem () {
         document.getElementById('tempo').innerHTML=soma
     },1000)
 
-          document.body.style.backgroundcolor="blue"
-
+          
 }
 
 
